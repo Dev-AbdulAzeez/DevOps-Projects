@@ -182,10 +182,187 @@ For example:
 >
 >`du /home/ubuntu/commandlinux`
 
+![Alt text](image/du.png)
+
+17. ### **head command**
+
+>This `head` allows user to view the first ten lines of a text
+>
+>An example is:
+
+`head uniqcommands`
+
+![Alt text](image/head.png)
+
+18. ### **tail command**
+
+>This `tail` command is used to display the last ten lines of a file.
+>
+>A general syntax is :
+
+`tail [option] [file]`
+
+An example is:
+
+`tail -n sqlight_commands.sh`
+
+![Alt text](<image/Screenshot 2023-09-12 at 5.54.30 AM.png>)
+
+19. ### **diff command**
+
+>This`diff` command compares two contents of a file line by line.
+>
+>An example is :
+
+`diff uniqcommands.sh sqlcommand.sh`
+
+![Alt text](image/diff.png)
+
+20. ### **tar command**
+
+This `tar` command archives multiple files into a TAR file.
+
+An example is :
+
+`tar -cvf newarchive.tar /home/ubuntu`
+
+![Alt text](image/tar.png)
+
+21. ### **chmod command**
+
+>This is a command that modifies a file or directory read's write and execution permission'
+>
+>Below is the basic syntax
+
+`chmod [option] permission [filename]`
+
+>An example is :
+
+`chmod 777 unixcommands`
+
+![Alt text](<image/Screenshot 2023-09-12 at 6.31.24 AM.png>)
+
+22. ### **chown command**
 
 
 
 
 
 
+
+
+
+
+23. ### **jobs command**
+
+>This is a process that the shell starts.
+>
+> `jobs [options] jobID`
+
+An example is:
+
+`jobs ID`
+
+![Alt text](image/job.png)
+
+
+24. ### **kill command**
+
+>This is used to terminate an unresponsive programme manually.
+>
+>The process Id number is needed, but if it isn't available, run 
+
+`pu ux`
+
+Then run:
+
+`kill [signal_option] pid`
+
+![Alt text](image/kill.png)
+![Alt text](<image/WhatsApp Image 2023-09-12 at 7.22.46 AM.jpeg>)
+
+25. ### **ping command**
+
+>This `ping` command is used to check whether a network or server is reachable.
+>
+>The general format is 
+
+`ping [option] [hostname_or_IP address]`
+
+>An example is:
+
+`ping google.com`
+
+![Alt text](image/ping.png)
+
+26. ### **wget command**
+
+This `wget` commands allows user to download files from the internet.
+
+This command can simply be run as :
+
+`wget [option] url`
+
+An example is:
+
+`wget https://wordpress.org/latest.zip`
+
+![Alt text](image/wget.png)
+
+27. ### **uname command**
+
+>This command allows user to print detailed information about the linux hardware
+>
+>An example is :
+
+`uname -a`
+
+![Alt text](image/uname-a.png)
+
+28. ### **top command**
+
+>This command allows user to see all running process and a dynamic real time view of the current system.
+>
+>It is very easy to run, simply enter:
+
+`top`
+
+![Alt text](<image/Screenshot 2023-09-12 at 7.56.05 AM.png>)
+
+29. ### **history command**
+
+>This commands allows user to view up to 500 previous executed commands.
+>
+>To run it, simply enter:
+
+`history [option]`
+
+![Alt text](<image/Screenshot 2023-09-12 at 8.03.33 AM.png>)
+
+30. ### **man command**
+
+>This commands allows user to to view the manual of any commands or utility 
+>The general syntax is
+>`man command_name`
+
+>Let's take an example:
+
+`man ls`
+
+![Alt text](<image/Screenshot 2023-09-12 at 12.28.54 PM.png>)
+
+31. ### **echo command**
+
+>This is a command that is built-in utility that displays a line of text or string using thhe standard output
+>
+>An example is:
+
+`echo -n`
+
+![Alt text](image/echo.png)
+
+
+32. ### **zip command**
+
+>This is git
 
