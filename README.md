@@ -362,7 +362,88 @@ An example is:
 ![Alt text](image/echo.png)
 
 
-32. ### **zip command**
+32. ### **zip,unzip command**
 
->This is git
+>The `zip` command compresses file into ZIP, while `unzip` removes the ZIP from a file.
+>
+An example is:
+
+`zip archive.zip note.txt`
+
+![Alt text](image/zip.png)
+
+33. ### **hostname command**
+
+>This command allows user to know the system's hostname
+>
+>An example is :
+
+`hostname -i`
+
+![Alt text](image/hostname.png)
+
+35. ### **useradd,useradd commands**
+
+>`useradd` is used to create a new user account.
+>
+>An example is:
+
+`useradd -m akin`
+
+![Alt text](image/useradd.png)
+
+>To add a password to the new user account.
+>
+`passwd akin`
+
+![Alt text](image/passwd.png)
+
+
+36. ### **apt-get command**
+
+>A command line tool responsible for handling Advanced Package Tool(APT) libraries in Linux
+>
+>An example is:
+
+`apt-get firefox`
+
+![Alt text](<image/Screenshot 2023-09-12 at 3.07.00 PM.png>)
+
+37. ### **nano, vi, jed commands**
+
+>It allows user to edit and manage files via text editor, suchh as nano or vi
+>
+>An example is:
+
+`nano`
+
+![Alt text](<image/Screenshot 2023-09-10 at 1.43.21 PM.png>)
+
+38. ### **alais**
+
+>This commands allows user to create a shortcut with the same fuctionality as a command, file name, or text.
+>
+>An example is:
+
+`alias k=kill`
+
+![Alt text](image/alias.png)
+
+39. ### **su command**
+
+>This allows a user to run a program as a different user.
+>
+>An example is:
+
+`su -`
+
+40. ### **ps command**
+
+>This command prints all runnning process in your system
+>
+>An example is:
+>
+`ps command`
+
+![Alt text](<image/Screenshot 2023-09-12 at 4.49.46 PM.png>)
 
